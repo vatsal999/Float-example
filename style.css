@@ -21,30 +21,37 @@ a {
 
 
 /* ----header---- */
-.logo{
-    color: white;
-    font-family: 'MuseoModerno',sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-}
 
 header {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     justify-content: space-between;
-    background-color: black;
-    padding: 0px 0px 20px 10px;
+    background-color: black;  
+    display: flex;
 }
+
+nav {
+    padding: 30px 100px 0px 0px;
+}
+
+.logo{
+    color: white;
+    font-family: 'MuseoModerno',sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    padding: 0px 0px 0px 30px;
+}
+
 
 .navlinks li{
     display: inline-block;
     padding: 0px 10px;
 }
 .navlinks  a{
-    border-radius: 50px;
-    border-color: white;
-    transform: ease-in  2.5s;
-    padding: 3px 3px;
+   
+    transition: ease  0.5s;
+    padding: 3px 10px;
+    font-size: 20px;
 }
 
 .navlinks  a:hover {
