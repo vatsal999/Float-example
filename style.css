@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@600&display=swap');
+
+/*----global----*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/*----global----*/
+
+
+
+/* ----header---- */
+.logo{
+    color: white;
+    font-family: 'MuseoModerno',sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+header {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0px 0px 20px 10px;
+}
+
+.navlinks li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.navlinks  a{
+    border-radius: 50px;
+    border-color: white;
+    transform: ease-in  2.5s;
+    padding: 3px 3px;
+}
+
+.navlinks  a:hover {
+    background-color: white;
+    color:black;
+}
+
+/* ----header---- */
+
+
+
+/*--- mainbody---*/
+
+.main-body{
+    padding: 10px 30px;
+
+}
+.product-list{
+    width: 25%;
+    float: left;
+    background-color: grey;
+}
+
+.product-list li{
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    align-items:center ;
+}
+/*
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  */
+.product-list a{
+    color: black;
+}
+
+.right-side-content{
+    width: 75%;
+}
+
+
+
+
+/*--- mainbody---*/
+
+
+/*--- footer ----*/
+footer{
+    border-top-style: solid;
+    border-top-color: black;
+    padding: 20px;
+}
+
+.footer-columns{
+    height: 50px;
+    width: 70%;
+}
+.socials{
+    height: 50px;
+    width: 30%;
+    float: right;
+}
+.socials li {
+    display: inline;
+}
+i{
+    font-size: 2em;
+}
+
+/*--- footer ----*/
